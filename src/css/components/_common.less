@@ -75,9 +75,7 @@ body {
 }
 
 .experience__item {
-  & + & {
-    margin-top: 15px;
-  }
+  margin-bottom: 15px;
 }
 
 .experience__company {
@@ -200,6 +198,20 @@ dd:not(:last-of-type) {
       }
     }
   }
+
+  .experience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .experience__item {
+    width: 48%;
+
+    &:nth-child(odd) {
+      text-align: right;
+    }
+  }
 }
 
 @media (min-width: 720px) {
@@ -220,7 +232,7 @@ dd:not(:last-of-type) {
 }
 
 @media (max-width: 719px) {
-  .container--full_name {
+  .container--title {
     text-align: center;
   }
 
@@ -246,6 +258,10 @@ dd:not(:last-of-type) {
     }
 
   }
+
+  .hidden-xs {
+    display: none !important;
+  }
 }
 
 @media print {
@@ -270,7 +286,7 @@ dd:not(:last-of-type) {
     list-style: none;
   }
 
-  a{
+  a {
     display: inline-flex;
   }
 

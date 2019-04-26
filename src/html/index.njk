@@ -9,7 +9,7 @@
     <div class="img_holder">
       <img src="./images/{{ fullName | lower | replace(" ", "_") }}.jpg" alt="{{ fullName }}" class="img">
     </div>
-    <h1 class="container container--full_name">
+    <h1 class="container container--title">
       <span class="col tar">
         {{ ru.firstName }}
       </span>
@@ -18,93 +18,107 @@
         {{ ru.lastName }}
       </span>
     </h1>
+    <h2 class="container">
+      <span class="col tar">Опыт</span>
+      <br class="hidden-xs">
+      <span class="col tal">работы</span>
+    </h2>
+    <ul class="experience">
+      <li class="experience__item">
+        <div class="experience__company">
+          <a href="https://duna.ua/" target="_blank" rel="noopener">ТОВ "Дюна-Веста"</a>
+        </div>
+        <div class="experience__position">Мерчендайзер</div>
+        <div class="experience__period">Август 2016</div>
+        <ul class="experience__description list">
+          <li>Консультация покупателей</li>
+          <li>Отчет по продажах</li>
+          <li>Мониторинг цен</li>
+          <li>Выкладка товара на полке</li>
+          <li>Поддержание порядка на витрине</li>
+        </ul>
+      </li>
+
+      <li class="experience__item">
+        <div class="experience__company">ООО "ЮР-Твин"</div>
+        <div class="experience__position">Торговым представителем</div>
+        <div class="experience__period">Июнь 2016 - Август 2016</div>
+        <ul class="experience__description list">
+          <li>Продажа и консультация покупателей</li>
+          <li>Отчет по продажах</li>
+          <li>Мониторинг по конкурентной продукции</li>
+          <li>Заказ и прием товара</li>
+          <li>Выкладка товара на полке</li>
+          <li>Поддержание порядка на витрине</li>
+        </ul>
+      </li>
+
+      <li class="experience__item">
+        <div class="experience__company">ООО "ЮР-Твин"</div>
+        <div class="experience__position">Мерчендайзер</div>
+        <div class="experience__period">Февраль 2016 - Июнь 2016</div>
+        <ul class="experience__description list">
+          <li>Посещение ТТ согласно маршруту</li>
+          <li>Ротация товара</li>
+          <li>Контроль выкладки и наличия товара согласно планограмм</li>
+          <li>Мониторинг цен</li>
+          <li>Подготовка и сдача отчетности о проделанной работе</li>
+          <li>Соблюдение доли витрины</li>
+        </ul>
+      </li>
+
+      <li class="experience__item">
+        <div class="experience__company">ЛВЧД-1</div>
+        <div class="experience__position">Проводник пассажирского вагона</div>
+        <div class="experience__period">Июнь 2012 - Август 2012</div>
+        <div class="experience__period">Июнь 2011 - Август 2011</div>
+        <p class="experience__description">
+          Добавить описание?
+        </p>
+      </li>
+
+      <li class="experience__item">
+        <div class="experience__company">ООО "Лионком"</div>
+        <div class="experience__position">Промоутер</div>
+        <div class="experience__period">2011-2012</div>
+        <ul class="experience__description list">
+          <li>Консультация покупателей</li>
+          <li>Отчет по продажах</li>
+          <li>Мониторинг цен</li>
+          <li>Выкладка товара на полке</li>
+          <li>Поддержание порядка на витрине</li>
+          <li>Раздача POS материалов</li>
+        </ul>
+      </li>
+
+      <li class="experience__item">
+        <div class="experience__company">ООО "Кентаур"</div>
+        <div class="experience__position">Промоутер</div>
+        <div class="experience__period">2008 - 2010</div>
+        <ul class="experience__description list">
+          <li>Консультация покупателей</li>
+          <li>Отчет по продажах</li>
+          <li>Мониторинг цен</li>
+          <li>Выкладка товара на полке</li>
+          <li>Поддержание порядка на витрине</li>
+          <li>Раздача POS материалов</li>
+        </ul>
+      </li>
+    </ul>
+
     <div class="container">
       <div class="col tar">
         <div class="row">
-          <h2>Опыт работы</h2>
-          <ul class="experience">
-            <li class="experience__item">
-              <div class="experience__company">
-                <a href="https://duna.ua/" target="_blank" rel="noopener">ТОВ "Дюна-Веста"</a>
-              </div>
-              <div class="experience__position">Мерчендайзер</div>
-              <div class="experience__period">Август 2016</div>
-              <ul class="experience__description list">
-                <li>Консультация покупателей</li>
-                <li>Отчет по продажах</li>
-                <li>Мониторинг цен</li>
-                <li>Выкладка товара на полке</li>
-                <li>Поддержание порядка на витрине</li>
-              </ul>
-            </li>
-
-            <li class="experience__item">
-              <div class="experience__company">ООО "ЮР-Твин"</div>
-              <div class="experience__position">Торговым представителем</div>
-              <div class="experience__period">Июнь 2016 - Август 2016</div>
-              <ul class="experience__description list">
-                <li>Продажа и консультация покупателей</li>
-                <li>Отчет по продажах</li>
-                <li>Мониторинг по конкурентной продукции</li>
-                <li>Заказ и прием товара</li>
-                <li>Выкладка товара на полке</li>
-                <li>Поддержание порядка на витрине</li>
-              </ul>
-            </li>
-
-            <li class="experience__item">
-              <div class="experience__company">ООО "ЮР-Твин"</div>
-              <div class="experience__position">Мерчендайзер</div>
-              <div class="experience__period">Февраль 2016 - Июнь 2016</div>
-              <ul class="experience__description list">
-                <li>Посещение ТТ согласно маршруту</li>
-                <li>Ротация товара</li>
-                <li>Контроль выкладки и наличия товара согласно планограмм</li>
-                <li>Мониторинг цен</li>
-                <li>Подготовка и сдача отчетности о проделанной работе</li>
-                <li>Соблюдение доли витрины</li>
-              </ul>
-            </li>
-
-            <li class="experience__item">
-              <div class="experience__company">ЛВЧД-1</div>
-              <div class="experience__position">Проводник пассажирского вагона</div>
-              <div class="experience__period">Июнь 2012 - Август 2012</div>
-              <div class="experience__period">Июнь 2011 - Август 2011</div>
-              <p class="experience__description">
-                Добавить описание?
-              </p>
-            </li>
-
-            <li class="experience__item">
-              <div class="experience__company">ООО "Лионком"</div>
-              <div class="experience__position">Промоутер</div>
-              <div class="experience__period">2011-2012</div>
-              <ul class="experience__description list">
-                <li>Консультация покупателей</li>
-                <li>Отчет по продажах</li>
-                <li>Мониторинг цен</li>
-                <li>Выкладка товара на полке</li>
-                <li>Поддержание порядка на витрине</li>
-                <li>Раздача POS материалов</li>
-              </ul>
-            </li>
-
-            <li class="experience__item">
-              <div class="experience__company">ООО "Кентаур"</div>
-              <div class="experience__position">Промоутер</div>
-              <div class="experience__period">2008 - 2010</div>
-              <ul class="experience__description list">
-                <li>Консультация покупателей</li>
-                <li>Отчет по продажах</li>
-                <li>Мониторинг цен</li>
-                <li>Выкладка товара на полке</li>
-                <li>Поддержание порядка на витрине</li>
-                <li>Раздача POS материалов</li>
-              </ul>
-            </li>
-
-          </ul>
+          <h2>Образование</h2>
+          <dl>
+            <dt>
+              Днепропетровский национальный университет<br>
+              железнодорожнего транспорта
+            </dt>
+            <dd>Автоматика, телемеханика и связь</dd>
+            <dt>Днепропетровский транспортно-экономический колледж</dt>
+            <dd>Автоматизация и компьютерно - интегрированные технологии</dd>
+          </dl>
         </div>
       </div>
       <div class="col tal">
@@ -121,18 +135,6 @@
             </dd>
             <dt>Город проживания</dt>
             <dd>Каменское</dd>
-          </dl>
-        </div>
-        <div class="row">
-          <h2>Образование</h2>
-          <dl>
-            <dt>
-              Днепропетровский национальный университет<br>
-              железнодорожнего транспорта
-            </dt>
-            <dd>Автоматика, телемеханика и связь</dd>
-            <dt>Днепропетровский транспортно-экономический колледж</dt>
-            <dd>Автоматизация и компьютерно - интегрированные технологии</dd>
           </dl>
         </div>
       </div>
