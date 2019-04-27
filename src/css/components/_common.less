@@ -151,52 +151,12 @@ dd:not(:last-of-type) {
     width: 48%;
   }
 
-  .list li {
-    position: relative;
-  }
-
   .tal {
     text-align: left;
-
-    .list {
-      padding-left: 30px;
-
-      li:before {
-        content: '';
-        position: absolute;
-        top: 10px;
-        left: -15px;
-        display: block;
-        width: 4px;
-        height: 4px;
-        margin-top: -2px;
-        margin-left: -2px;
-        border-radius: 50%;
-        background-color: #000;
-      }
-    }
   }
 
   .tar {
     text-align: right;
-
-    .list {
-      padding-right: 30px;
-
-      li:after {
-        content: '';
-        position: absolute;
-        top: 10px;
-        right: -15px;
-        display: block;
-        width: 4px;
-        height: 4px;
-        margin-top: -2px;
-        margin-right: -2px;
-        border-radius: 50%;
-        background-color: #000;
-      }
-    }
   }
 
   .experience {
@@ -208,8 +168,52 @@ dd:not(:last-of-type) {
   .experience__item {
     width: 48%;
 
+    .list li {
+      position: relative;
+    }
+
+    &:nth-child(even) {
+      text-align: left;
+
+      .list {
+        padding-left: 30px;
+
+        li:before {
+          content: '';
+          position: absolute;
+          top: 10px;
+          left: -15px;
+          display: block;
+          width: 4px;
+          height: 4px;
+          margin-top: -2px;
+          margin-left: -2px;
+          border-radius: 50%;
+          background-color: #000;
+        }
+      }
+    }
+
     &:nth-child(odd) {
       text-align: right;
+
+      .list {
+        padding-right: 30px;
+
+        li:after {
+          content: '';
+          position: absolute;
+          top: 10px;
+          right: -15px;
+          display: block;
+          width: 4px;
+          height: 4px;
+          margin-top: -2px;
+          margin-right: -2px;
+          border-radius: 50%;
+          background-color: #000;
+        }
+      }
     }
   }
 }
