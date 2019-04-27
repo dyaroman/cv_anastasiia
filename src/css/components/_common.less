@@ -61,6 +61,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+
   text-align: center;
 }
 
@@ -70,7 +71,9 @@ body {
   height: auto;
   max-width: 100%;
   max-height: 100%;
+
   vertical-align: middle;
+
   border-radius: 50%;
 }
 
@@ -100,15 +103,19 @@ dd:not(:last-of-type) {
 
 .download {
   display: block;
+  min-width: 50px;
   height: 50px;
   padding: 0 12px;
+
   position: fixed;
   right: 15px;
   bottom: 15px;
+
   text-decoration: none;
   text-align: center;
   font-size: 14px;
   line-height: 50px;
+
   border-radius: 30px;
   background-color: #19c953;
 
@@ -180,14 +187,18 @@ dd:not(:last-of-type) {
 
         li:before {
           content: '';
+
           position: absolute;
           top: 10px;
           left: -15px;
+
           display: block;
           width: 4px;
           height: 4px;
+
           margin-top: -2px;
           margin-left: -2px;
+
           border-radius: 50%;
           background-color: #000;
         }
@@ -202,14 +213,18 @@ dd:not(:last-of-type) {
 
         li:after {
           content: '';
+
           position: absolute;
           top: 10px;
           right: -15px;
+
           display: block;
           width: 4px;
           height: 4px;
+
           margin-top: -2px;
           margin-right: -2px;
+
           border-radius: 50%;
           background-color: #000;
         }
@@ -248,19 +263,22 @@ dd:not(:last-of-type) {
 
       &:before {
         content: '';
+
         position: absolute;
         top: 10px;
         left: -15px;
+
         display: block;
         width: 4px;
         height: 4px;
+
         margin-top: -2px;
         margin-left: -2px;
         border-radius: 50%;
+
         background-color: #000;
       }
     }
-
   }
 
   .hidden-xs {
@@ -276,8 +294,10 @@ dd:not(:last-of-type) {
   .resume {
     width: 21cm;
     height: 29.68cm;
+
     margin: 10px 10px 0;
     padding: 0;
+
     -webkit-print-color-adjust: exact;
     page-break-after: auto;
     overflow: hidden;
