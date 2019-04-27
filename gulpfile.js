@@ -52,7 +52,12 @@ gulp.task('pdf', () => {
     await page.pdf({
       path: `./dest/${options.fullName.replace(' ', '_')}.pdf`,
       format: 'A4',
-      pageRanges: '1'
+      margin: {
+        top: 30,
+        right: 30,
+        bottom: 30,
+        left: 30,
+      },
     });
     await exit();
     await browser.close();
