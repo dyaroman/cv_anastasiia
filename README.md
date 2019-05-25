@@ -1,6 +1,6 @@
 # [anastasiia.dyaroman.com](https://anastasiia.dyaroman.com)
 
-[![Build Status](https://travis-ci.org/dyaroman/cv_anastasiia.svg?branch=master)](https://travis-ci.org/dyaroman/cv_anastasiia)
+[![Build Status](https://travis-ci.org/dyaroman/anastasiia.dyaroman.com.svg?branch=master)](https://travis-ci.org/dyaroman/anastasiia.dyaroman.com)
 
 ### Get started
 
