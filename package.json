@@ -25,6 +25,6 @@
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-util": "^3.0.8",
-    "puppeteer": "^1.10.0"
+    "puppeteer": "^1.13.0"
   }
 }
